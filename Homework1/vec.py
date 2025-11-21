@@ -34,7 +34,7 @@ class Vector():
     def S(self, other1, other2):
         p=(abs(self-other1)+abs(self-other2)+abs(other1-other2))/2
         return (p*(p-abs(self-other1))*(p-abs(self-other2))*(p-abs(other1-other2)))**0.5
-
+print(2)
 #упр 1.1
 v1 = Vector(1,2,3)
 v2 = Vector(2,3,1)
